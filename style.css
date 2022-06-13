@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(./img/marketing-online-strategy-with-drawings.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  background-attachment: inherit;
+  width: 100%;
+}
+
+table,
+tr,
+th,
+td {
+  border: 2px white solid;
+  border-collapse: collapse;
+}
+
+.container {
+  margin: 100px;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+th,
+tfoot tr {
+  background-color: #555;
+  color: white;
+}
+
+th,
+td {
+  padding: 5px;
+}
+
+th:first-child {
+  width: 100px;
+  text-align: left;
+}
+th:nth-child(2) {
+  width: 250px;
+  text-align: left;
+}
+
+th:nth-child(3),
+td:nth-child(3) {
+  text-align: center;
+  width: 50px;
+}
+
+th:nth-child(n + 4),
+td:nth-child(n + 4) {
+  width: 100px;
+  text-align: right;
+}
+td:last-child i {
+  padding-right: 10px;
+}
+tr:nth-child(odd) {
+  background-color: #999;
+}
+tr:nth-child(even) {
+  background-color: rgb(241, 239, 239);
+}
+
+tfoot td {
+  text-align: right;
+  font-weight: 600px;
+  color: white;
+  background-color: #888;
+}
+
+.bottom {
+  display: flex;
+  justify-content: flex-end;
+  /* border: 2px red solid; */
+  margin-left: 32%;
+  margin-top: 10px;
+}
+.button a {
+  display: inline-block;
+  /* border: 2px red solid; */
+  padding: 10px;
+  background-color: coral;
+  text-decoration: none;
+  color: white;
+  margin: 20px;
+}
+.button a i {
+  color: black;
+}
+caption {
+  margin-bottom: 20px;
+  border: 2px black solid;
+  border-radius: 25px;
+  width: 100%;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 32px;
+  color: #082b42;
+  font-family: "Roboto", sans-serif;
+  height: 80px;
+  line-height: 70px;
+  background-color: rgb(185, 180, 180, 0.5);
+  box-shadow: #05111a, 20px;
+}
